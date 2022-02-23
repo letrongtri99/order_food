@@ -1,0 +1,11 @@
+mutation RegisterDelivery($options: EmailPasswordInput!, $avatar: Upload!) {
+  registerDelivery(options: $options, avatar: $avatar) {
+    delivery {
+      email
+    }
+    errors {
+      field
+      message
+    }
+  }
+}

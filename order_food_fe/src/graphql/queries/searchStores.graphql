@@ -1,0 +1,13 @@
+query searchStores($searchTerm: String!) {
+  searchStores(searchTerm: $searchTerm) {
+    id
+    name
+    avatar
+    slug_name
+    district
+    address
+    promotion
+    latitude
+    longtitude
+  }
+}

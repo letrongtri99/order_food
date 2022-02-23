@@ -1,0 +1,17 @@
+query Stores($state: StateInput!) {
+  stores(state: $state) {
+    total
+    stores {
+      id
+      name
+      slug_name
+      avatar
+      phone
+      address
+      district
+      longtitude
+      latitude
+      promotion
+    }
+  }
+}

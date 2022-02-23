@@ -1,0 +1,3 @@
+mutation UpdateProfile($name: String!, $gender: String!, $phone: String!) {
+  updateProfile(name: $name, gender: $gender, phone: $phone)
+}

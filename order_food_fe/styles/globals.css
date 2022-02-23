@@ -1,0 +1,78 @@
+@import '~antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+body {
+  margin: 0;
+  font-family: Noto Sans, Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #464646;
+  text-align: left;
+  background-color: #f2f2f2;
+}
+
+.ant-popover-inner-content {
+  padding: 12px 0px !important;
+  width: 210px;
+}
+
+.inline {
+  display: flex;
+}
+
+.ant-card-body {
+  padding: 5px 8px !important ;
+}
+
+.ant-card-meta-detail {
+  height: 100px !important;
+}
+
+.ant-card-meta-description {
+  text-overflow: ellipsis !important;
+}
+
+/* .ant-select-selector {
+  padding: 8px !important;
+  padding-left: 12px !important;
+  height: 50px !important;
+  border: 0 !important;
+  font-size: 15px !important;
+  border-radius: 6px 10px 10px 6px !important;
+}
+
+.ant-select-single:not(.ant-select-customize-input)
+  .ant-select-selector
+  .ant-select-selection-search-input {
+  height: 50px;
+} */
+
+.body-loading {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.custom-select-status .ant-select-selection-item {
+  line-height: 18px !important;
+  padding-top: 9px !important;
+}
+
+.custom-select-status .ant-select-selector {
+  height: 35px !important;
+}
+
+.avatar-uploader > .ant-upload {
+  width: 128px;
+  height: 128px;
+}

@@ -1,0 +1,11 @@
+mutation RegisterStore($options: EmailPasswordInput!, $avatar: Upload!) {
+  registerStore(options: $options, avatar: $avatar) {
+    store {
+      email
+    }
+    errors {
+      field
+      message
+    }
+  }
+}

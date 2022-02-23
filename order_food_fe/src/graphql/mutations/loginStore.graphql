@@ -1,0 +1,13 @@
+mutation LoginStore($email: String!, $password: String!) {
+  loginStore(email: $email, password: $password) {
+    store {
+      email
+    }
+    errors {
+      field
+      message
+    }
+    accessToken
+    slug
+  }
+}

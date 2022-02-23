@@ -1,0 +1,19 @@
+.register {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #f4f7f7;
+  padding: 44px 0px 30px;
+}
+
+.register-form {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.register-submit {
+  padding-left: 33%;
+}
+
+.register-tab {
+  border-bottom: none !important;
+}

@@ -1,0 +1,7 @@
+mutation updateOrderDelivery($id: Int!, $status: Int!) {
+  updateOrderDelivery(id: $id, status: $status) {
+    id
+    order_status
+    deliveryId
+  }
+}

@@ -1,0 +1,14 @@
+query GetProfile {
+  getProfile {
+    id
+    email
+    name
+    phone
+    address
+    gender
+    avatarUrl
+    longtitude
+    latitude
+    slug_name
+  }
+}

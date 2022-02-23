@@ -1,0 +1,11 @@
+mutation RegisterCustomer($options: EmailPasswordInput!, $avatar: Upload!) {
+  registerCustomer(options: $options, avatar: $avatar) {
+    customer {
+      email
+    }
+    errors {
+      field
+      message
+    }
+  }
+}

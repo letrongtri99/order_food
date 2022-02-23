@@ -1,0 +1,12 @@
+mutation LoginDelivery($email: String!, $password: String!) {
+  loginDelivery(email: $email, password: $password) {
+    delivery {
+      email
+    }
+    errors {
+      field
+      message
+    }
+    accessToken
+  }
+}

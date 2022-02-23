@@ -1,0 +1,36 @@
+query Store($slug: String!) {
+  store(slug: $slug) {
+    store {
+      id
+      email
+      longtitude
+      latitude
+      name
+      slug_name
+      phone
+      address
+      district
+      promotion
+      avatar
+      is_active
+      isDeleted
+      createdAt
+      updatedAt
+    }
+    products {
+      id
+      name
+      category
+      description
+      price
+      sale
+      isDeleted
+      comment
+      imgUrl
+      sold
+      quantity
+      createdAt
+      updatedAt
+    }
+  }
+}

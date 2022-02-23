@@ -1,0 +1,47 @@
+.footer__container {
+  padding: 45px 140px;
+  border-top: 1px solid #d9d9d9;
+  /* margin-top: 120px; */
+}
+
+.footer__icon {
+  max-width: 260px !important;
+}
+
+.footer__company {
+  color: #959595;
+  margin-top: 18px;
+}
+
+.footer__social {
+  margin: 20px auto 0px;
+  width: 25%;
+}
+
+.footer__button--circle {
+  color: #fff;
+  background-color: #959595;
+}
+
+.footer__button--instagram:hover {
+  background-color: #ba30a7;
+  border: #ba30a7;
+  color: #fff;
+}
+
+.footer__button--google:hover {
+  background-color: #cf2127;
+  border: #cf2127;
+  color: #fff;
+}
+
+.footer__button--fb:hover {
+  background-color: #0288d1;
+  border: #0288d1;
+  color: #fff;
+}
+
+.footer__email {
+  color: #0288d1;
+  cursor: pointer;
+}

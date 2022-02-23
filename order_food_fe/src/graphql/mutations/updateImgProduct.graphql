@@ -1,0 +1,3 @@
+mutation UpdateImgProduct($id: Int!, $imgUrl: Upload!) {
+  updateImgProduct(id: $id, imgUrl: $imgUrl) 
+}

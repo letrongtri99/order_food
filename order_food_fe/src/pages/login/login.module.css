@@ -1,0 +1,97 @@
+.login {
+  width: 55%;
+  margin: 0 auto;
+  background-color: #f4f7f7;
+  padding: 44px 0px 30px;
+}
+
+.login__username {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.login__remember {
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 18px;
+}
+
+.login__forgot {
+  float: right;
+}
+
+.button__submit {
+  width: 100%;
+}
+
+.button__container {
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.login__tab {
+  border-bottom: none !important;
+}
+
+.option-account {
+  text-align: center;
+}
+
+.option-google {
+  width: 65%;
+  background-color: #ff5252;
+  height: 40px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.option-google:hover {
+  background-color: #b82828;
+  color: white;
+  border-color: #b82828;
+}
+
+.option-fb {
+  width: 65%;
+  background-color: #187caa;
+  height: 40px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.option-fb:hover {
+  background-color: #0f5a7c;
+  color: white;
+  border-color: #0f5a7c;
+}
+
+.option-phone {
+  width: 65%;
+  background-color: #329900;
+  height: 40px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.option-phone:hover {
+  background-color: #308606;
+  color: white;
+  border-color: #308606;
+}
+
+.option-icon {
+  float: left;
+  margin-top: 4.5px;
+}
+
+.warning-form-login {
+  width: 65%;
+  margin: 18px auto;
+}

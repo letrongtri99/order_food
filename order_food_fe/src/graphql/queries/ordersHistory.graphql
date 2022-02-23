@@ -1,0 +1,20 @@
+query OrdersHistory($state: StateInput!) {
+  ordersHistory(state: $state) {
+    total
+    ordersHistory {
+      id
+      order_id
+      address
+      order_status
+      price
+      createdAt
+      store_name
+      store_address
+      delivery_name
+      deliveryId
+      customerId
+      pickedAt
+      arrivedAt
+    }
+  }
+}

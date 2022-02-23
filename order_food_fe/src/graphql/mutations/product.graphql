@@ -1,0 +1,16 @@
+mutation Product($id: Int!) {
+  product(id: $id) {
+    id
+    name
+    category
+    price
+    description
+    sale
+    quantity
+    imgUrl
+    sold
+    createdAt
+    updatedAt
+    isDeleted
+  }
+}

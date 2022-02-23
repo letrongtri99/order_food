@@ -1,0 +1,18 @@
+query ListProducts($state: StateInput!, $storeId: Int!) {
+  listProducts(state: $state, storeId: $storeId) {
+    total
+    products {
+      id
+      name
+      category
+      description
+      price
+      sale
+      createdAt
+      comment
+      quantity
+      sold
+      imgUrl
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.table-history-content {
+  margin: 0 auto;
+  width: 90%;
+  box-shadow: 0 0 3px 0 rgb(50 50 50 / 30%);
+  border-radius: 4px;
+  margin-top: 35px;
+  padding: 15px;
+}
+
+.table-history-modified thead > tr > th {
+  color: red;
+}
+
+.table-history-search {
+  width: 80%;
+  margin: 20px auto !important;
+}
+
+.select-order-status {
+  width: 130px;
+}
+
+.ant-select-selection-item {
+  line-height: 18px !important;
+}

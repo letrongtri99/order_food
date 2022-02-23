@@ -1,0 +1,10 @@
+mutation CreateProduct($input: ProductInput!, $imgUrl: Upload!) {
+  createProduct(input: $input, imgUrl: $imgUrl) {
+    id
+    name
+    imgUrl
+    category
+    description
+    price
+  }
+}

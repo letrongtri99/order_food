@@ -1,0 +1,48 @@
+.header-user-profile {
+  font-size: 18px;
+  color: #000;
+  font-weight: 700;
+  padding: 16px 15px;
+  border-bottom: 1px solid #ebebeb;
+  position: relative;
+  background: #f5f5f5;
+}
+
+.user-profile-update {
+  padding: 30px;
+  position: relative;
+}
+
+.user-profile-update .title-user {
+  font-weight: 700;
+  font-size: 15px;
+  color: #4073a7;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.ant-upload {
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+}
+
+.update-btn {
+  background-color: #4073a7;
+  border-color: #4073a7;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.gender-profile-update label {
+  margin-top: 6px !important;
+}
+
+.password {
+  display: flex;
+  justify-content: space-between;
+}
+
+.password-input {
+  width: 47%;
+}
